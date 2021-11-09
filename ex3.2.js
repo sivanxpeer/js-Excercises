@@ -55,6 +55,3 @@ console.log(power1("3"));
 console.log(power2("4"));
 (function(a){Math.pow(a,2)})();
 
-
-
-// todo - go over the vids and docs and try again 
