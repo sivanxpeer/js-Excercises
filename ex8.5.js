@@ -2,7 +2,7 @@ function keyValueSwapper(objectToSwap){
     const object ={};
     for(let key in objectToSwap){
         object[objectToSwap[key]]=key;
-    }
+    }   
     return object;
 }
 

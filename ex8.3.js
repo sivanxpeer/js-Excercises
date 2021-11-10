@@ -53,7 +53,7 @@ console.log(book1);
 // book a language and a translator, and sets a new property of translation,
 // which is an object that contains the translator and the language.
 bookUtils.setTranslation = function (book, language, translator) {
-    book.translation = {
+    book.translation = { 
         language: language,
         translator: translator
     };
