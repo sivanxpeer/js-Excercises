@@ -5,8 +5,8 @@ let someObject = {
     "age": 29
 };
 
-let objectsArray = new Array(100);
-objectsArray.fill(someObject, 0, 100);
+let objectsArray = new Array(100).fill(someObject);
+// objectsArray.fill(someObject, 0, 100);
 
 //test
 console.log(objectsArray.length);
@@ -66,5 +66,3 @@ let shallowCopy = arrayToCopy2.slice();
 
 console.log(arrayToCopy2);
 console.log(shallowCopy);
-
-
