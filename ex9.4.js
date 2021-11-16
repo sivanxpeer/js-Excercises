@@ -4,5 +4,4 @@ function printSteps(n){
     }
 }
 
-
 printSteps(4);
